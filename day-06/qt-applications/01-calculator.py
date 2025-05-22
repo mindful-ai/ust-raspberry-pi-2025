@@ -6,6 +6,7 @@ from PyQt5.QtGui import QFont
 import sys
 
 class Calculator(QWidget):
+
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Simple Calculator")
@@ -75,7 +76,7 @@ class Calculator(QWidget):
         layout.addWidget(self.result_label)
 
         self.setLayout(layout)
-        self.setMinimumSize(400, 500)  # Overall window size
+        self.setMinimumSize(480, 640)  # Overall window size
 
     def calculate(self):
         try:

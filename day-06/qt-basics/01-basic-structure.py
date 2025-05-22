@@ -9,10 +9,10 @@ win.setWindowTitle("QPushButton Example")
 
 label = QLabel("Hello, PyQt!")
 
+
 # Set large font
 font = QFont()
 font.setPointSize(24)  # You can adjust the size as needed
 label.setFont(font)
-
 label.show()
 sys.exit(app.exec_())
