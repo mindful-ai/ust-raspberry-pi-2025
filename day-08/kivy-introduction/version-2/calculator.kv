@@ -1,0 +1,60 @@
+<CalculatorLayout>:
+    orientation: "vertical"
+    padding: 20
+    spacing: 20
+
+    TextInput:
+        id: input1
+        hint_text: "Enter first number"
+        multiline: False
+        input_filter: 'float'
+        font_size: 24
+        size_hint: 0.5, 0.5
+
+    TextInput:
+        id: input2
+        hint_text: "Enter second number"
+        multiline: False
+        input_filter: 'float'
+        font_size: 24
+        size_hint: 0.5, 0.5
+
+    BoxLayout:
+        spacing: 10
+        
+        ToggleButton:
+            id: add
+            text: "+"
+            group: "operation"
+            font_size: 32
+            size_hint: 0.3, 0.3
+        ToggleButton:
+            id: sub
+            text: "-"
+            group: "operation"
+            font_size: 32
+            size_hint: 0.3, 0.3
+        ToggleButton:
+            id: mul
+            text: "×"
+            group: "operation"
+            font_size: 32
+            size_hint: 0.3, 0.3
+        ToggleButton:
+            id: div
+            text: "÷"
+            group: "operation"
+            font_size: 32
+            size_hint: 0.3, 0.3
+
+    Button:
+        text: "CALCULATE"
+        font_size: 30
+        size_hint: 1, 0.3
+        on_press: root.calculate()
+
+    Label:
+        id: result
+        text: "Result will appear here"
+        font_size: 32
+        size_hint: 1, 0.5
