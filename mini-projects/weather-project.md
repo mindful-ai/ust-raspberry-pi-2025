@@ -69,6 +69,13 @@ The Raspberry Pi will:
 
 ---
 
+#### 📝 Modified Objective for Non-Pioneer Teams
+Teams will still build a Python-based socket communication system where weather data fetched on the laptop is sent to the Raspberry Pi. However:
+
+Instead of OLED display, the Raspberry Pi prints the data (temperature, pressure, condition) to the terminal.
+
+---
+
 ## 🧪 Evaluation Criteria
 
 | Criteria                                  | Marks |
