@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>LED Control (GPIO26)</h1>
+    <p>Status: <strong>{{ 'ON' if led_on else 'OFF' }}</strong></p>
+    <form action="/led" method="post">
+        <button type="submit">Toggle LED</button>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>

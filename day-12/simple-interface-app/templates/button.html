@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Status</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        setInterval(() => window.location.reload(), 1000);
+    </script>
+</head>
+<body>
+    <h1>Button Monitor (Live)</h1>
+    <p>Status: <strong>{{ 'PRESSED' if pressed else 'NOT PRESSED' }}</strong></p>
+    <a href="/">Back</a>
+</body>
+</html>

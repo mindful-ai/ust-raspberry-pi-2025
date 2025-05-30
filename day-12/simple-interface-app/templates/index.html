@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sensor Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Temperature & Pressure</h1>
+    {% if data.error %}
+        <p>Error: {{ data.error }}</p>
+    {% else %}
+        <p><strong>Temperature:</strong> {{ data.temperature }} °C</p>
+        <p><strong>Pressure:</strong> {{ data.pressure }} hPa</p>
+    {% endif %}
+    <a href="/led/status">Go to LED Control</a><br>
+    <a href="/button">Check Button Status</a>
+</body>
+</html>
