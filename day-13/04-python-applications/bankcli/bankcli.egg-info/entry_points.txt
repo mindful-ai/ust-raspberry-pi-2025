@@ -1,0 +1,2 @@
+[console_scripts]
+bankcli = bankapp.main:app
