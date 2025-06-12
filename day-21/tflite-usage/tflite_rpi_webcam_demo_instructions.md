@@ -47,6 +47,10 @@ pip3 install opencv-python tflite-runtime numpy
 
 Download from [TensorFlow Lite Model Zoo](https://www.tensorflow.org/lite/models/object_detection/overview). Example:
 
+Alternative: https://github.com/schu-lab/Tensorflow-Object-Detection/blob/main/efficientdet_lite0.tflite
+
+
+
 - EfficientDet Lite0:
     - File: `efficientdet_lite0.tflite`
     - Rename it to `model.tflite`
