@@ -203,7 +203,7 @@ nohup python app.py &
 
 ---
 
-# 🧑‍🏫 Teaching Manual
+# 🧑‍🏫 Additional Information
 
 ## 🎓 Goals
 
