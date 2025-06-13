@@ -246,7 +246,7 @@ nohup python app.py &
 
 ---
 
-## 📈 Teaching Tips
+## 📈 Summary
 
 | Action | Purpose |
 |--------|--------|
